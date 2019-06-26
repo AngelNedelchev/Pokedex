@@ -1,96 +1,119 @@
-.container {
-    border-radius: 25px;
-    box-shadow: -13px 10px 0px 0px rgba(92,25,34,1);
+#main {
     background-color: red;
+    box-shadow: -11px 10px 0px 0px rgba(77,22,22,1);
+    border-radius: 25px;
+    margin: 10px;
 }
-
-.lightbluecircle {
-    border-radius: 100%;
-    width: 80px;
-    height: 80px;
-    background-color: rgb(29, 221, 221);
-    border: 6px solid white;
-    box-shadow: 0px 2px 21px 0px rgba(95, 15, 15, 0.75);
-    margin-left: 15px;
-    margin-top: 15px;
+.left {
+    width: 100%;
+}
+.topbar{
+    height: auto;
+    display: flex;
+    width: 100%;
     
 }
-.reflect {
-    width: 30px;
-    height: 15px;
-    background-color: rgb(184, 239, 253);
-    margin-left: 18px;
-    margin-top: 8px;
-    border-top-left-radius: 15px;
-    border-bottom-right-radius: 15px;
-    border-top-right-radius: 8px;
-    border-bottom-left-radius: 8px;
+.top {
+    display: flex;
+    background-color: rgb(107, 31, 31);
+    width: 50%;
+    height: 150px;
+    border-top-left-radius: 25px;
+    border-bottom-right-radius: 40px;
+    border-bottom: 10px solid rgba(77,22,22,1);
 }
-.buttons {
-    width: 130px;
-    height: 30px;
-    margin-left: 10px;
-    margin-top: 10px;
+.bigbtn {
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    border: 5px solid white;
+    background-color: rgb(59, 187, 230);
+    margin-top: 30px;
+    margin-left: 30px;
+    box-shadow: 0px 0px 4px 3px rgba(0, 0, 0, 0.466);
 }
-.buttons .redbtn{
-    border: 1px solid red;
+.redbtn {
+    width: 20px;
+    height: 20px;
     border-radius: 100%;
     background-color: red;
-    box-shadow: 0px 2px 21px 0px rgba(0, 0, 0, 0.75);
-    height: 20px;
-    width: 20px;
+    box-shadow: 0px 0px 4px 3px rgba(0, 0, 0, 0.466);
+    margin-top: 30px;
     margin-left: 10px;
-    margin-right: 10px;
 }
-.buttons .yellowbtn{
-    border: 1px solid yellow;
+.yellowbtn {
+    width: 20px;
+    height: 20px;
     border-radius: 100%;
     background-color: yellow;
-    box-shadow: 0px 2px 21px 0px rgba(0, 0, 0, 0.75);
-    height: 20px;
-    width: 20px;
+    box-shadow: 0px 0px 4px 3px rgba(0, 0, 0, 0.466);
+    margin-top: 30px;
     margin-left: 10px;
-    margin-right: 10px;
 }
-.buttons .greenbtn{
-    border: 1px solid green;
+.greenbtn {
+    width: 20px;
+    height: 20px;
     border-radius: 100%;
     background-color: green;
-    box-shadow: 0px 2px 21px 0px rgba(0, 0, 0, 0.75);
-    height: 20px;
-    width: 20px;
-    margin-left: 10px;
-    margin-right: 10px;
-}
-.all-btns{
-    border-bottom: 12px solid rgba(92,25,34,1);
-    margin-top: 0px;
-    margin-left: 0px;
-    height: 130px;
-    width: 300px;
-    border-bottom-right-radius: 70px;
-    border-top-left-radius: 20px;
-    background-color: brown;
-}
-.empty{
-    
-    width: 239px;
-    height: 40px;
-    border-top-left-radius: 70px;
-    background-color: red;
-    margin-left: 0;
+    box-shadow: 0px 0px 4px 3px rgba(0, 0, 0, 0.466);
     margin-top: 30px;
-    padding-top: -10px;
-    
-
+    margin-left: 10px;
+}
+.empty {
+    width: 50%;
+    height: 150px;
+    background-color: rgb(107, 31, 31);
+    border-top-right-radius: 25px;
+}
+.emptyy {
+    margin-top: 80px;
+    width: 100%;
+    height: 70px;
+    border-top-left-radius: 40px;
+    background-color: red;
     
 }
-.empty-brown {
-    border: 1px solid brown;
-    width: 240px;
-    height: 70px;
-    background-color: brown;
-    border-top-right-radius: 25px;
-    margin-left: 15px;
-    
+.tv {
+    border-radius: 25px;
+    background-color: lightgray;
+    margin-top: 30px;
+    margin-left: 120px;
+    margin-right: 120px;
+    height: auto;
+}
+.btns {
+    display: flex;
+    justify-content: center;
+}
+.redbtn1{
+    width: 15px;
+    height: 15px;
+    border-radius: 100%;
+    background-color: red;
+    margin: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.753);
+    box-shadow: 0px 0px 4px 3px rgba(0, 0, 0, 0.466);
+}
+.screen {
+    border: 4px solid rgba(0, 0, 0, 0.719);
+    width: auto;
+    height: auto;
+    background-color: #fff;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+}
+.screen img {
+    width: 200px;
+    height: 200px;
+}
+.aroundscreen {
+    margin-left: 80px;
+    margin-right: 80px;
+}
+.bigredbtn{
+    width: 60px;
+    height: 60px;
+    background-color: red;
+    border-radius: 100%;
 }
