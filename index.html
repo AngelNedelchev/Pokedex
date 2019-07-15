@@ -8,6 +8,8 @@
     <title>Pokedex</title>
 </head>
 <body>  
+        
+    
     <div id="main">
         <div class="left">
             <div class="topbar">
@@ -32,7 +34,7 @@
                     <div class="redbtn1"></div>
                 </div>
                 <div class="aroundscreen">
-                    <div class="screen"> <img src="img/pikachu.png" alt="Pica"></div>
+                    <div class="screen"> <img id="picture" src="/img/pikachu.png" alt="Pica"></div>
                 </div>
                 <div class="bottombtns">
                     <div class="bigredbtn"></div>
@@ -63,13 +65,24 @@
                     </div>
                     <div class="abc">
                         <div class="panel">
-                            <div class="number">25</div>
+                            <div id="number">25</div>
                         </div>
                     </div>
                 </div>
-                <div class="plus">
-                    <div class="poke"><img src="img/poke.png" alt="P"></div>
-                </div>
+                    <div class="poke">
+                        <div class="polygon">
+                            <div class="up"></div>
+                            <div class="mid">
+                                <div id="left">&lt;</div>
+                                <div id="right">&gt;</div>
+                            </div>
+                            <div class="down"></div>
+                        </div>
+                    </div>
+            </div>
+            <div class="searchbar">
+                    <input type="text" id="pokesearch" name="pokesearch" placeholder="Search for pokemons...">
+                    <label for="pokesearch"><button id="search">Search!</button></label>
             </div>
             <div class="after">Pokedex</div>
         </div>
@@ -87,7 +100,8 @@
             <div class="boog-two"></div>
         </div>
     </div>
-    <div class="name">Pikachu</div>
+    <div id="infobox"> 
+    </div>
     
 
         <div class="tenbluebtns">
@@ -120,10 +134,10 @@
 
         <div class="threebtns">
             <div class="twograybtns">
-                <div class="graybtn-one">
+                <div id="previous">
                     <div class="triangle-one"></div>
                 </div>
-                <div class="graybtn-two">
+                <div id="next">
                     <div class="triangle-two"></div>
                 </div>
             </div>
@@ -132,8 +146,7 @@
             </div>
         </div>
         <div class="twoorangebtns">
-            <div class="orange-one"></div>
-            <div class="orange-two"></div>
+            <div id="orange-one">Pikachu</div>
         </div>
 
     </div>
@@ -146,5 +159,6 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
 </body>
 </html>
